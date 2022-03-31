@@ -1,0 +1,139 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    .container {
+        max-width: 1080px;
+        margin: auto;
+    }
+    
+    body {
+        background-color: #FFFAF3;
+        background-image: url(../img/fon.png);
+        background-position: right top;
+        background-repeat: no-repeat;
+        background-size: 660px 878px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    header {
+        max-width: 470px;
+        border-bottom: 1px solid #C08D5D;
+        padding-top: 43px;
+        padding-bottom: 42.5px;
+    }
+    
+    .logo {
+        display: inline-block;
+        width: 38.64px;
+        height: 59px;
+        vertical-align: middle;
+    }
+    
+    header nav ul li,
+    header nav {
+        display: inline-block;
+    }
+    
+    header nav a {
+        text-decoration: none;
+        color: #000;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 27px;
+    }
+    
+    header nav li {
+        margin-left: 50px;
+    }
+    
+    header nav ul li:first-child {
+        margin-left: 83.36px;
+    }
+    
+    header nav ul li:first-child a {
+        color: #C08D5D;
+    }
+    
+    main {
+        padding-top: 122.5px;
+    }
+    
+    h1 {
+        font-family: 'Yeseva One';
+        font-weight: 400;
+        font-size: 70px;
+        line-height: 81px;
+        letter-spacing: 0.06em;
+        color: #3F4042;
+        text-transform: uppercase;
+        margin-bottom: 80px;
+    }
+    
+    h1 span {
+        display: block;
+        text-transform: none;
+        font-size: 50px;
+        line-height: 58px;
+    }
+    
+    h1 span::after {
+        display: inline-block;
+        content: '';
+        background-image: url(../img/logo.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 45.21px;
+        height: 69.04px;
+        margin-left: 8px;
+        vertical-align: sub;
+    }
+    
+    h1::after {
+        content: url(../img/polosa.svg);
+        width: 165px;
+        height: 9.03px;
+        display: block;
+    }
+    
+    .main-text {
+        max-width: 535px;
+        font-size: 18px;
+        line-height: 147.6%;
+        letter-spacing: 0.06em;
+        color: #3F4042;
+    }
+    
+    .more {
+        display: inline-block;
+        border: 2px solid #C08D5D;
+        padding-left: 13px;
+        text-decoration: none;
+        font-size: 20px;
+        line-height: 60px;
+        letter-spacing: 0.06em;
+        color: #3F4042;
+        margin-top: 72px;
+        margin-bottom: 62.6px;
+    }
+    
+    .more::after {
+        content: '';
+        background-image: url(../img/list.svg);
+        background-repeat: no-repeat;
+        display: inline-block;
+        vertical-align: middle;
+        background-position: center;
+        background-color: #C08D5D;
+        width: 57px;
+        height: 64px;
+        line-height: 64px;
+        margin-left: 11px;
+    }
+    
+    .mouse {
+        display: block;
+        text-align: center;
+    }
