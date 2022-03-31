@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.knopka {
+    display: inline-block;
+    background-color: aqua;
+    text-decoration: none;
+    color: black;
+    padding-left: 26px;
+    line-height: 64px;
+}
+
+.knopka::after {
+    content: '>';
+    display: inline-block;
+    background-color: blue;
+    width: 59px;
+    height: 64px;
+    line-height: 64px;
+    text-align: center;
+    color: #fff;
+    margin-left: 26px;
+}
